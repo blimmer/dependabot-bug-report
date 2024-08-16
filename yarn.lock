@@ -1139,9 +1139,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-cdk-lib@npm:2.149.0":
-  version: 2.149.0
-  resolution: "aws-cdk-lib@npm:2.149.0"
+"aws-cdk-lib@npm:2.152.0":
+  version: 2.152.0
+  resolution: "aws-cdk-lib@npm:2.152.0"
   dependencies:
     "@aws-cdk/asset-awscli-v1": "npm:^2.2.202"
     "@aws-cdk/asset-kubectl-v20": "npm:^2.1.2"
@@ -1159,13 +1159,13 @@ __metadata:
     yaml: "npm:1.10.2"
   peerDependencies:
     constructs: ^10.0.0
-  checksum: 10c0/f5f1cb2af5bae4279d850373c3a9ec6d1d4de23d358af363e9aa1d814e2bd6cb71df13b238d40ac09995519db2225cffb14fa94a5727ccec172e658590b91afd
+  checksum: 10c0/96f5fe99062bbbfeaab06698fe7dd7b1a78fac84725bcbcd4756c2c9754604c7618ab5cda4cb39881ffe8402626e2c35aefb6912202eb94b8b6a979d1aa1edaa
   languageName: node
   linkType: hard
 
-"aws-cdk@npm:2.149.0":
-  version: 2.149.0
-  resolution: "aws-cdk@npm:2.149.0"
+"aws-cdk@npm:2.152.0":
+  version: 2.152.0
+  resolution: "aws-cdk@npm:2.152.0"
   dependencies:
     fsevents: "npm:2.3.2"
   dependenciesMeta:
@@ -1173,7 +1173,7 @@ __metadata:
       optional: true
   bin:
     cdk: bin/cdk
-  checksum: 10c0/109721311a6a8b3fb2c84d118fb795e5de5af252ff90f6be4f3796cb3c64763023b44250217dc089b82ed9e897e071d51e48121ad891c2a152fa69de74a913d9
+  checksum: 10c0/7c62ac24d5a9ce83a7586e929bf2de18759fc74bbbd47cee64ad5ed8ace0228f0ad10765eca015e38806750f89980d0dd63594d9e69f48c7e02c31b31209e2de
   languageName: node
   linkType: hard
 
@@ -1593,8 +1593,8 @@ __metadata:
     "@aws-cdk/aws-scheduler-targets-alpha": "npm:2.149.0-alpha.0"
     "@types/jest": "npm:^29.5.12"
     "@types/node": "npm:20.14.9"
-    aws-cdk: "npm:2.149.0"
-    aws-cdk-lib: "npm:2.149.0"
+    aws-cdk: "npm:2.152.0"
+    aws-cdk-lib: "npm:2.152.0"
     constructs: "npm:^10.0.0"
     jest: "npm:^29.7.0"
     source-map-support: "npm:^0.5.21"
