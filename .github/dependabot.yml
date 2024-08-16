@@ -1,0 +1,38 @@
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'daily'
+    commit-message:
+      prefix: 'chore(deps): '
+    groups:
+      cdk-updates:
+        applies-to: version-updates
+        patterns:
+          - '@aws-cdk/*'
+          - 'aws-cdk'
+          - 'aws-cdk-lib'
+        update-types:
+          - patch
+          - minor
+          - major
+      security-updates:
+        applies-to: security-updates
+        update-types:
+          - patch
+          - minor
+          - major
+      safe-updates:
+        applies-to: version-updates
+        update-types:
+          - patch
+          - minor
+        exclude-patterns:
+          - '@types/node'
+      major-updates:
+        applies-to: version-updates
+        exclude-patterns:
+          - '@types/node'
+        update-types:
+          - major
