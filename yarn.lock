@@ -57,6 +57,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@aws-cdk/cloud-assembly-schema@npm:^36.0.5":
+  version: 36.0.14
+  resolution: "@aws-cdk/cloud-assembly-schema@npm:36.0.14"
+  dependencies:
+    jsonschema: "npm:^1.4.1"
+    semver: "npm:^7.6.3"
+  checksum: 10c0/6f2f67ae29ebf210dd734730846a77bbb4c65ae33af4c09993e23b99e7641c4569ce769533c34bcfddb856b602b93e5e4db9f1079c6603c3eb886be779cc177a
+  languageName: node
+  linkType: hard
+
 "@babel/code-frame@npm:^7.0.0, @babel/code-frame@npm:^7.12.13, @babel/code-frame@npm:^7.24.7":
   version: 7.24.7
   resolution: "@babel/code-frame@npm:7.24.7"
@@ -1139,13 +1149,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-cdk-lib@npm:2.149.0":
-  version: 2.149.0
-  resolution: "aws-cdk-lib@npm:2.149.0"
+"aws-cdk-lib@npm:2.154.0":
+  version: 2.154.0
+  resolution: "aws-cdk-lib@npm:2.154.0"
   dependencies:
     "@aws-cdk/asset-awscli-v1": "npm:^2.2.202"
     "@aws-cdk/asset-kubectl-v20": "npm:^2.1.2"
     "@aws-cdk/asset-node-proxy-agent-v6": "npm:^2.0.3"
+    "@aws-cdk/cloud-assembly-schema": "npm:^36.0.5"
     "@balena/dockerignore": "npm:^1.0.2"
     case: "npm:1.6.3"
     fs-extra: "npm:^11.2.0"
@@ -1159,13 +1170,13 @@ __metadata:
     yaml: "npm:1.10.2"
   peerDependencies:
     constructs: ^10.0.0
-  checksum: 10c0/f5f1cb2af5bae4279d850373c3a9ec6d1d4de23d358af363e9aa1d814e2bd6cb71df13b238d40ac09995519db2225cffb14fa94a5727ccec172e658590b91afd
+  checksum: 10c0/70c2d50a7367cfb8fce7f86eeed2cc203e07d355bf58bedf9b5dc1b932a9fb49ee1d938d27b1303bc3213749abf94b4eecdbc56d72264c34587f2d4e1deceacc
   languageName: node
   linkType: hard
 
-"aws-cdk@npm:2.149.0":
-  version: 2.149.0
-  resolution: "aws-cdk@npm:2.149.0"
+"aws-cdk@npm:2.154.0":
+  version: 2.154.0
+  resolution: "aws-cdk@npm:2.154.0"
   dependencies:
     fsevents: "npm:2.3.2"
   dependenciesMeta:
@@ -1173,7 +1184,7 @@ __metadata:
       optional: true
   bin:
     cdk: bin/cdk
-  checksum: 10c0/109721311a6a8b3fb2c84d118fb795e5de5af252ff90f6be4f3796cb3c64763023b44250217dc089b82ed9e897e071d51e48121ad891c2a152fa69de74a913d9
+  checksum: 10c0/491615b668307fc5864e8e2e0cf2aad452c470c273fba9da94e8accc6942654c3b14142da3961e83015547182b40afb3e1e350a22f15cae2016327d161c54789
   languageName: node
   linkType: hard
 
@@ -1593,8 +1604,8 @@ __metadata:
     "@aws-cdk/aws-scheduler-targets-alpha": "npm:2.149.0-alpha.0"
     "@types/jest": "npm:^29.5.12"
     "@types/node": "npm:20.14.9"
-    aws-cdk: "npm:2.149.0"
-    aws-cdk-lib: "npm:2.149.0"
+    aws-cdk: "npm:2.154.0"
+    aws-cdk-lib: "npm:2.154.0"
     constructs: "npm:^10.0.0"
     jest: "npm:^29.7.0"
     source-map-support: "npm:^0.5.21"
@@ -3448,7 +3459,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.5, semver@npm:^7.5.3, semver@npm:^7.5.4, semver@npm:^7.6.2":
+"semver@npm:^7.3.5, semver@npm:^7.5.3, semver@npm:^7.5.4, semver@npm:^7.6.2, semver@npm:^7.6.3":
   version: 7.6.3
   resolution: "semver@npm:7.6.3"
   bin:
