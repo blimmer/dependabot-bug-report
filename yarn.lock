@@ -29,10 +29,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-cdk/asset-node-proxy-agent-v6@npm:^2.0.3":
-  version: 2.0.3
-  resolution: "@aws-cdk/asset-node-proxy-agent-v6@npm:2.0.3"
-  checksum: 10c0/fa83c50bff30c5edb70b97314e68bc75362c1e541484b4f39c962e3f742f342ea11278a01606aaeca5b5257c582f108267f44675a452b8ea8a0348c715ad031b
+"@aws-cdk/asset-node-proxy-agent-v6@npm:^2.1.0":
+  version: 2.1.0
+  resolution: "@aws-cdk/asset-node-proxy-agent-v6@npm:2.1.0"
+  checksum: 10c0/1ac7bccf82afee69c05241a5ad66345fbd468678ce633bb43c5921c7241a3186231b3b65f9ac6b9924933349c826a9470c79a3ddf14a03fbfce43f14c4d957f2
   languageName: node
   linkType: hard
 
@@ -54,6 +54,16 @@ __metadata:
     aws-cdk-lib: ^2.149.0
     constructs: ^10.0.0
   checksum: 10c0/6b3e4356b32245c3c963b83f83c4c290a25d3a3d5748497d51186645055ef7c8c5ae9e2d14f7fc19c9baecb16009e68ccf293916cc8ce8300c0a52111017350d
+  languageName: node
+  linkType: hard
+
+"@aws-cdk/cloud-assembly-schema@npm:^36.0.24":
+  version: 36.0.25
+  resolution: "@aws-cdk/cloud-assembly-schema@npm:36.0.25"
+  dependencies:
+    jsonschema: "npm:^1.4.1"
+    semver: "npm:^7.6.3"
+  checksum: 10c0/1941354526aa1eb3f8d874a3cfb39579cd5b5fa5107e3dc159360f8397bd19e6745a2504a572c44b7b1212b6f8cfdf39fe0e100caba7e76e360e0e830f286f4b
   languageName: node
   linkType: hard
 
@@ -1139,33 +1149,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws-cdk-lib@npm:2.149.0":
-  version: 2.149.0
-  resolution: "aws-cdk-lib@npm:2.149.0"
+"aws-cdk-lib@npm:2.158.0":
+  version: 2.158.0
+  resolution: "aws-cdk-lib@npm:2.158.0"
   dependencies:
     "@aws-cdk/asset-awscli-v1": "npm:^2.2.202"
     "@aws-cdk/asset-kubectl-v20": "npm:^2.1.2"
-    "@aws-cdk/asset-node-proxy-agent-v6": "npm:^2.0.3"
+    "@aws-cdk/asset-node-proxy-agent-v6": "npm:^2.1.0"
+    "@aws-cdk/cloud-assembly-schema": "npm:^36.0.24"
     "@balena/dockerignore": "npm:^1.0.2"
     case: "npm:1.6.3"
     fs-extra: "npm:^11.2.0"
-    ignore: "npm:^5.3.1"
+    ignore: "npm:^5.3.2"
     jsonschema: "npm:^1.4.1"
     mime-types: "npm:^2.1.35"
     minimatch: "npm:^3.1.2"
     punycode: "npm:^2.3.1"
-    semver: "npm:^7.6.2"
+    semver: "npm:^7.6.3"
     table: "npm:^6.8.2"
     yaml: "npm:1.10.2"
   peerDependencies:
     constructs: ^10.0.0
-  checksum: 10c0/f5f1cb2af5bae4279d850373c3a9ec6d1d4de23d358af363e9aa1d814e2bd6cb71df13b238d40ac09995519db2225cffb14fa94a5727ccec172e658590b91afd
+  checksum: 10c0/890b58479f19aa04717d744efb99ebb73fee81e5f736a027a93c5118593d50a81eea212b0927d0b1076de50827b670a53f4d305412f49f16c2fd2bd9eee83681
   languageName: node
   linkType: hard
 
-"aws-cdk@npm:2.149.0":
-  version: 2.149.0
-  resolution: "aws-cdk@npm:2.149.0"
+"aws-cdk@npm:2.158.0":
+  version: 2.158.0
+  resolution: "aws-cdk@npm:2.158.0"
   dependencies:
     fsevents: "npm:2.3.2"
   dependenciesMeta:
@@ -1173,7 +1184,7 @@ __metadata:
       optional: true
   bin:
     cdk: bin/cdk
-  checksum: 10c0/109721311a6a8b3fb2c84d118fb795e5de5af252ff90f6be4f3796cb3c64763023b44250217dc089b82ed9e897e071d51e48121ad891c2a152fa69de74a913d9
+  checksum: 10c0/7ec07f45b5a671d32d40a2cc0c63fddd1767cd74d525d764709184bcd36bc7d58b5df95e46c96f11e9621b858561599c8f7671f1a36b058cce3288b7af8e5cf4
   languageName: node
   linkType: hard
 
@@ -1305,7 +1316,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bs-logger@npm:0.x":
+"bs-logger@npm:^0.2.6":
   version: 0.2.6
   resolution: "bs-logger@npm:0.2.6"
   dependencies:
@@ -1593,14 +1604,14 @@ __metadata:
     "@aws-cdk/aws-scheduler-targets-alpha": "npm:2.149.0-alpha.0"
     "@types/jest": "npm:^29.5.12"
     "@types/node": "npm:20.14.9"
-    aws-cdk: "npm:2.149.0"
-    aws-cdk-lib: "npm:2.149.0"
+    aws-cdk: "npm:2.158.0"
+    aws-cdk-lib: "npm:2.158.0"
     constructs: "npm:^10.0.0"
     jest: "npm:^29.7.0"
     source-map-support: "npm:^0.5.21"
-    ts-jest: "npm:^29.1.5"
+    ts-jest: "npm:^29.2.5"
     ts-node: "npm:^10.9.2"
-    typescript: "npm:~5.5.3"
+    typescript: "npm:~5.6.2"
   bin:
     dependabot-bug-report: bin/dependabot-bug-report.js
   languageName: unknown
@@ -2074,7 +2085,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore@npm:^5.3.1":
+"ignore@npm:^5.3.2":
   version: 5.3.2
   resolution: "ignore@npm:5.3.2"
   checksum: 10c0/f9f652c957983634ded1e7f02da3b559a0d4cc210fca3792cb67f1b153623c9c42efdc1c4121af171e295444459fc4a9201101fb041b1104a3c000bccb188337
@@ -2838,7 +2849,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lodash.memoize@npm:4.x":
+"lodash.memoize@npm:^4.1.2":
   version: 4.1.2
   resolution: "lodash.memoize@npm:4.1.2"
   checksum: 10c0/c8713e51eccc650422716a14cece1809cfe34bc5ab5e242b7f8b4e2241c2483697b971a604252807689b9dd69bfe3a98852e19a5b89d506b000b4187a1285df8
@@ -2877,7 +2888,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"make-error@npm:1.x, make-error@npm:^1.1.1":
+"make-error@npm:^1.1.1, make-error@npm:^1.3.6":
   version: 1.3.6
   resolution: "make-error@npm:1.3.6"
   checksum: 10c0/171e458d86854c6b3fc46610cfacf0b45149ba043782558c6875d9f42f222124384ad0b468c92e996d815a8a2003817a710c0a160e49c1c394626f76fa45396f
@@ -3448,7 +3459,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:^7.3.5, semver@npm:^7.5.3, semver@npm:^7.5.4, semver@npm:^7.6.2":
+"semver@npm:^7.3.5, semver@npm:^7.5.3, semver@npm:^7.5.4, semver@npm:^7.6.3":
   version: 7.6.3
   resolution: "semver@npm:7.6.3"
   bin:
@@ -3765,19 +3776,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ts-jest@npm:^29.1.5":
-  version: 29.2.4
-  resolution: "ts-jest@npm:29.2.4"
+"ts-jest@npm:^29.2.5":
+  version: 29.2.5
+  resolution: "ts-jest@npm:29.2.5"
   dependencies:
-    bs-logger: "npm:0.x"
+    bs-logger: "npm:^0.2.6"
     ejs: "npm:^3.1.10"
-    fast-json-stable-stringify: "npm:2.x"
+    fast-json-stable-stringify: "npm:^2.1.0"
     jest-util: "npm:^29.0.0"
     json5: "npm:^2.2.3"
-    lodash.memoize: "npm:4.x"
-    make-error: "npm:1.x"
-    semver: "npm:^7.5.3"
-    yargs-parser: "npm:^21.0.1"
+    lodash.memoize: "npm:^4.1.2"
+    make-error: "npm:^1.3.6"
+    semver: "npm:^7.6.3"
+    yargs-parser: "npm:^21.1.1"
   peerDependencies:
     "@babel/core": ">=7.0.0-beta.0 <8"
     "@jest/transform": ^29.0.0
@@ -3798,7 +3809,7 @@ __metadata:
       optional: true
   bin:
     ts-jest: cli.js
-  checksum: 10c0/43be1d5625d44bc48815d91810e796d74682757b4f64677b54aae1f4da855476e50c01b92d54add4b02976ecf2cbb2f318d7c7788844328de44f145b95185fac
+  checksum: 10c0/acb62d168faec073e64b20873b583974ba8acecdb94681164eb346cef82ade8fb481c5b979363e01a97ce4dd1e793baf64d9efd90720bc941ad7fc1c3d6f3f68
   languageName: node
   linkType: hard
 
@@ -3854,23 +3865,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:~5.5.3":
-  version: 5.5.4
-  resolution: "typescript@npm:5.5.4"
+"typescript@npm:~5.6.2":
+  version: 5.6.2
+  resolution: "typescript@npm:5.6.2"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/422be60f89e661eab29ac488c974b6cc0a660fb2228003b297c3d10c32c90f3bcffc1009b43876a082515a3c376b1eefcce823d6e78982e6878408b9a923199c
+  checksum: 10c0/3ed8297a8c7c56b7fec282532503d1ac795239d06e7c4966b42d4330c6cf433a170b53bcf93a130a7f14ccc5235de5560df4f1045eb7f3550b46ebed16d3c5e5
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A~5.5.3#optional!builtin<compat/typescript>":
-  version: 5.5.4
-  resolution: "typescript@patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"
+"typescript@patch:typescript@npm%3A~5.6.2#optional!builtin<compat/typescript>":
+  version: 5.6.2
+  resolution: "typescript@patch:typescript@npm%3A5.6.2#optional!builtin<compat/typescript>::version=5.6.2&hash=74658d"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/73409d7b9196a5a1217b3aaad929bf76294d3ce7d6e9766dd880ece296ee91cf7d7db6b16c6c6c630ee5096eccde726c0ef17c7dfa52b01a243e57ae1f09ef07
+  checksum: 10c0/e6c1662e4852e22fe4bbdca471dca3e3edc74f6f1df043135c44a18a7902037023ccb0abdfb754595ca9028df8920f2f8492c00fc3cbb4309079aae8b7de71cd
   languageName: node
   linkType: hard
 
@@ -4043,7 +4054,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yargs-parser@npm:^21.0.1, yargs-parser@npm:^21.1.1":
+"yargs-parser@npm:^21.1.1":
   version: 21.1.1
   resolution: "yargs-parser@npm:21.1.1"
   checksum: 10c0/f84b5e48169479d2f402239c59f084cfd1c3acc197a05c59b98bab067452e6b3ea46d4dd8ba2985ba7b3d32a343d77df0debd6b343e5dae3da2aab2cdf5886b2
